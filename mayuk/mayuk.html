@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K.Praneeth Kumar Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body class="bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 text-gray-900 overflow-x-hidden scroll-smooth">
+
+  <div class="max-w-5xl mx-auto p-6">
+
+    <!-- Hero Section -->
+    <section class="bg-white/80 backdrop-blur-md rounded-3xl shadow-2xl p-10 text-center mb-8 overflow-hidden">
+
+      <div class="flex flex-col items-center">
+
+        <img
+          src="C:\Users\prana\OneDrive\Desktop\mayuk\praneeth.jpeg"
+          alt="K.Praneeth Kumar"
+          class="w-44 h-44 rounded-full object-cover border-4 border-black shadow-2xl mb-6 hover:scale-105 transition duration-500"
+        />
+
+        <h1 id="typingText" class="text-5xl font-bold mb-6 h-16"></h1>
+
+        <p class="text-lg text-gray-600 mb-6">
+          Computer Science and Cyber Security Student | Problem Solver
+        </p>
+
+        <button
+          onclick="scrollToContact()"
+          class="px-6 py-3 bg-black text-white rounded-2xl hover:scale-105 transition duration-300"
+        >
+          Contact Me
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-white rounded-3xl shadow-xl p-8 mb-8 hover:shadow-2xl transition duration-300">
+
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+
+      <p class="text-gray-700 leading-relaxed">
+        I am a passionate Cyber Security student interested in software
+        development, networking, operating systems, and problem-solving.
+        I enjoy building projects using Java, Python, and database technologies.
+      </p>
+
+    </section>
+
+    <!-- Education Section -->
+    <section class="bg-white rounded-3xl shadow-xl p-8 mb-8 hover:shadow-2xl transition duration-300">
+
+      <h2 class="text-3xl font-semibold mb-6">Education</h2>
+
+      <div class="space-y-6">
+
+        <div class="border rounded-2xl p-6 hover:shadow-xl transition duration-300">
+
+          <h3 class="text-2xl font-semibold mb-2">
+            B-Tech - CSE Cyber Security
+          </h3>
+
+          <p class="text-gray-700">
+            Madanapalle Institute of Technology and Science
+          </p>
+
+          <p class="text-gray-600 mt-2">
+            CGPA: 8.64
+          </p>
+
+        </div>
+
+        <div class="border rounded-2xl p-6 hover:shadow-xl transition duration-300">
+
+          <h3 class="text-2xl font-semibold mb-2">
+            Intermediate
+          </h3>
+
+          <p class="text-gray-700">
+            Venkat Reddy Siddartha Jr College
+          </p>
+
+          <p class="text-gray-600 mt-2">
+            Percentage: 93%
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="bg-white rounded-3xl shadow-xl p-8 mb-8 hover:shadow-2xl transition duration-300">
+
+      <h2 class="text-3xl font-semibold mb-6">Skills</h2>
+
+      <div class="flex flex-wrap gap-4">
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium flex items-center gap-2">
+          <i class="fa-brands fa-java"></i> Java
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium flex items-center gap-2">
+          <i class="fa-brands fa-html5"></i> HTML
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium flex items-center gap-2">
+          <i class="fa-brands fa-python"></i> Python
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium flex items-center gap-2">
+          <i class="fa-brands fa-js"></i> JavaScript
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium">
+          MySQL
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium">
+          Operating Systems
+        </span>
+
+        <span class="px-5 py-2 bg-gray-200 rounded-full text-sm font-medium">
+          Computer Networks
+        </span>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-black text-white rounded-3xl shadow-2xl p-8 text-center mb-10">
+
+      <h2 class="text-3xl font-semibold mb-6">Contact Me</h2>
+
+      <div class="space-y-3 text-lg">
+
+        <p>📧 Gmail: praneethc442@gmail.com</p>
+
+        <p>📱 Phone: 9014751598</p>
+
+        <p>
+          🔗 LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/praneeth-chinnu-a0b71832b/"
+            target="_blank"
+            class="underline ml-1 hover:text-gray-300 transition duration-300"
+          >
+            View Profile
+          </a>
+        </p>
+
+      </div>
+
+      <div class="flex justify-center gap-4 flex-wrap mt-6">
+
+        <button class="px-6 py-3 bg-white text-black rounded-2xl hover:scale-105 transition duration-300">
+          Hire Me
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-700 py-6">
+      © 2026 K.Praneeth Kumar. All Rights Reserved.
+    </footer>
+
+  </div>
+
+  <script>
+
+    const fullName = "K.Praneeth Kumar";
+    const typingElement = document.getElementById("typingText");
+
+    let index = 0;
+
+    const interval = setInterval(() => {
+
+      typingElement.textContent = fullName.slice(0, index + 1);
+
+      index++;
+
+      if (index === fullName.length) {
+        clearInterval(interval);
+      }
+
+    }, 80);
+
+    function scrollToContact() {
+      document.getElementById("contact").scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+
+  </script>
+
+</body>
+</html>
